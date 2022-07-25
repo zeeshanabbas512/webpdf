@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+             /*--------- header-------------- */
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.logo h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.social__link__header {
+    width: 100%;
+    margin-left: 25%;
+     height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    font-size: 20px;
+    padding-top: 30px;
+    justify-content:space-around;
+}
+                   /* ----------2nd section ---------*/
+
+ .div1{
+    
+    width: 70%;
+    height: 260px;
+    padding-top: 80px   ;
+    margin-left: 50px;     
+ }
+ .hhhh{
+  background-image: url(./MRT13.jpg);
+ }
+ .div1 p{
+    margin-top: 25px;
+ } 
+ .div1 h1{
+    color: white;
+ }                 
+ .div1 button{
+    margin-top: 25px;
+    padding: 16px 22px;
+    background-color: rgba(63, 63, 180, 0.907);
+    color: whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+ }
+           /* 3rdsection */
+.sectionthr{
+    display: flex;
+    background-color: antiquewhite;
+}
+ .three{
+    height: 155px;
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+ .three h2{
+    padding-bottom: 12px;
+    font: size 30px;;
+ }
+.btno{
+    margin-left: 200px;
+    margin-top: 80px;
+    background-color: rgba(131, 131, 236, 0.849);
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+}
+              /* -----------4thsection------------ */
+.line{
+    border-radius: 50px;
+    background-color: red;
+    width: 35px;
+    height: 35px;
+}    
+.awesome h1{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+.awesome p{
+    text-align: center;
+}
+.computer{
+    display: flex;
+}
+.mouse{
+    margin-top: 50px;
+    margin-left: 70px;
+    justify-content: space-around;
+}
+           /* hand section */
+ .templae{
+   width: 100%;
+    text-align: center;
+    /* background-color: rgba(37, 37, 37, 0.774); */
+background-image: url(./20.jpg);
+    height: 140px;
+    padding-top: 30px;
+ }
+ .templae h1{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 8px;
+}
+.templae p{
+    color: white;
+    padding-bottom: 18px;
+}
+.templae button{
+    padding: 8px 22px;
+    background-color: rgb(60, 60, 172);
+    color: white;
+}
+    /*----------------- our section -----------*/
+   #service__section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+   }
+.service__heading{
+width: 60%;
+height: 10%;
+margin: 0 auto;
+text-align: center;
+padding: 20px 0px;
+line-height: 30px;
+}
+  .services{
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box{
+    width: 32%;
+    height: 100%;
+    background-color: rgb(226, 128, 43);
+    /* border: 2px solid black; */
+  }
+  .box__one{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  .box__img{
+    width: 25%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: black;
+    background-image: url(./myImage.jpg);
+    background-size: cover;
+ }
+  
+                         /*------------ OUR WORK------------ */
+ .OUR--WORKS{
+    text-align: center;
+    background-color: rgba(196, 200, 200, 0.618);
+ } 
+ .OUR--WORKS h1{
+       padding-top: 30px;
+       padding-bottom: 20px;
+ }  
+ .OUR--WORKS P{
+    padding-bottom: 20px;
+ }
+ .OUR--WORKS button{
+    background-color: rgb(211, 240, 240);
+    border: none;
+ } 
+ .BTN1{
+    padding: 4px 0px;
+    background-color: blue;
+    color: rgba(255, 255, 255, 0.466);
+ }   
+ .images{
+    padding-left: 380px;
+    background-color: rgba(196, 200, 200, 0.618);
+    padding-bottom: 9px;
+    padding-top: 20px;
+ }                 
+     /* ------------------- ABOUT US -------------- */
+.about---us{
+   text-align: center;
+ }
+ .about---us h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+ }
+ .about---us p{
+    font-size: 20px;
+    padding-bottom: 15px;
+ }
+ .about--us-vedio{
+    padding-left: 90px;
+ }
+ .about--us-section{
+    display: flex;
+    padding-top: 30px;
+ }
+ .about--us-multi{
+    margin-left: 100px;
+ }
+ .about--us-multi h1{
+    padding-bottom: 10px;
+ }
+ .about--us-multi button{
+   padding: 6px 14px;
+   background-color: rgb(104, 104, 185);
+   margin-top: 30px;
+   color: whitesmoke;
+ }
+          /* ------------OUR PROCESS----------- */
+ .our---process-HEad{
+width: 100%;
+height: 50vh;
+/* background-color: darkolivegreen; */
+background-image: url(./20.jpg);
+ }
+ .our---process{
+   text-align: center;
+   padding-top: 50px;
+ }
+ .our---process h1{
+   padding-bottom: 12px;
+   font-size: 35px;
+   color: whitesmoke;
+ }
+ .our---process p{
+   font-size: 16px;
+   color: whitesmoke ;
+ }
+ .our---process-2{
+   display: flex;
+padding-left: 400px;
+padding-top: 70px;
+padding-right: 350px;
+justify-content: space-between;
+ }
+ .our---process-2 h1{
+   width: 80px;
+   height: 10vh;
+   background-color: black;
+   color: aliceblue;
+   border-radius: 80px;
+   /* border-color: 8px rgb(0, 102, 255);     boder  */
+ }
+ .our---process-3{
+   color: white;
+   display: flex;
+   padding-left: 360px;
+   justify-content: space-around;
+    padding-top: 30px;
+   margin-right: 310px;
+ }
+                /* ------------MEEET THE TEAM -------  */
+.meet-our--team{
+width: 100%;
+height: 80vh;
+background-color: white;
+} 
+.meet-our--team-1{
+   text-align: center;
+   padding-top: 50px;
+}  
+.meet-our--team-1 h1{
+   font-size: 35px;
+   padding-bottom: 10px;
+} 
+.AISAR{
+   width: 70%;
+   display: flex;
+   padding-top: 30px;
+   margin-top: 20px;
+ padding-left: 250px;
+} 
+.pictures{
+   width: 80%;
+   height: 50vh;
+  background-color: rgb(181, 181, 181);
+   margin-left: 40px;
+} 
+.our-skill{
+   width: 350px;
+   height: 40vh;
+   margin-left: 70px ;
+   background-color:white;
+  padding-top: 20px;
+}
+.our-skill input{
+   padding-left: 19ex;
+   padding-top: 4px;
+   margin-top: 15px;
+   background-color: rgb(123, 171, 255);
+   border-radius: 6px;
+   color: white;
+   border: 4px solid black ;
+}
+.our-skill h1{
+ padding-top: 10px;
+ background-color: darkgray;
+}
+.our-skill-section{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 400px;
+   margin-left: 396px;
+}
+           /* <!-- ---------------FUN FACTS-------------- --> */
+.fun--facts-head{
+width: 100%;
+height: 57vh;
+background-image: url(./22.jpg);
+}
+.fun--facts{
+   text-align: center;
+   padding-top: 50px;
+   color: whitesmoke;
+}
+.fun--facts h1{
+   font-size: 37px;
+   padding-bottom: 16px;
+}
+.fun--facts-1-up{
+   display: flex;
+   justify-content: space-around;
+}
+.fun--facts-1 h2{
+   width: 90px;
+   height:7vh;
+   background-color: black;
+   color: whitesmoke;
+   padding-left: 40px;
+   padding-top: 55px;
+   padding-bottom: 20px;
+   border-radius: 100%;
+   border: 3px solid white;
+   margin-top: 90px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.fun--facts-2-up{
+   display: flex;
+   justify-content: space-around;
+}
+.fun--facts-2 h2{
+  color: whitesmoke;
+   padding-top: 25px;
+   font-size: 19px;
+   padding-right: 8px;
+}
+       /* -------------PRICING TABLE----------- */
+.pricing-table-head{
+   width: 100%;
+   height: 80vh;
+   padding-top: 70px;
+   background-color:white;
+}
+.pricing-table{
+   text-align: center;
+}
+.pricing-table h1{
+   padding-bottom: 16px;
+   font-size: 37px;
+
+}
+.pricing-table-1{
+   width: 250px;
+   height: 56vh;
+   background-color: white;
+   margin-left: 30px;
+   border: 3px solid black;
+   border-radius: 8px;
+   /* display: flex; */
+   justify-content: space-around;
+
+}
+.pricing-table-1 h1{
+ width: 100%;
+ height: 10vh;
+background-color: rgba(176, 170, 170, 0.894);
+text-align: center;
+padding-top: 40px;
+}
+.pricing-table-1 p{
+   text-align: center;
+}
+.pricing-table-1-head{
+   display: flex;
+   margin-left: 270px;
+   padding-top: 70px;
+   background-color:white;
+}
+.btn{
+ padding: 10px;
+ margin-left: 70px;
+ margin-top: 30px;
+ background-color: rgb(35, 35, 160); 
+ border-radius: 6px;
+}
+.two{
+   width: 250px;
+   height: 56vh;
+   background-color: white;
+   margin-left: 30px;
+   border: 3px solid black;
+   border-radius: 8px;
+   justify-content: space-around;
+   background-color: rgb(33, 29, 29);
+}
+.two h1{
+   width: 100%;
+   height: 10vh;
+  background-color: rgb(46, 127, 208);
+  text-align: center;
+  padding-top: 40px;
+}
+.two p{
+   text-align: center;
+   color: whitesmoke;
+}
+.btn-1{
+   padding: 10px;
+   margin-left: 70px;
+   margin-top: 30px;
+   background-color: white; 
+   border-radius: 6px;
+}
+     /* ------------my pic----------- */
+.my-pic-head{
+width: 100%;
+height: 45vh;
+background-image: url(./20.jpg);
+}
+.my-pic-1{
+ text-align: center;
+ color: whitesmoke;
+}
+.my-pic-1 button{
+   padding: 4px 6px;
+   margin-top: 20px;
+   background-color: rgb(0, 136, 255);
+   color: whitesmoke ;
+}
+          /* <!-- ------------------- latasted-blogs--------- --> */
+   
+ .latasted-blogs-h{
+   padding-top: 40px;
+   background-color: chartreuse;
+   height: 110vh;
+
+ } 
+ .latasted-blogs{
+   padding-left: 8px;
+   text-align: center;
+ }
+ .latasted-blogs h1{
+   font-size: 36px;
+ } 
+.latasted-blogs p{
+   padding-top: 12px;
+   font: 20px;
+} 
+ .latasted-blogs-IMG{
+   width: 30%;
+   height: 90vh;
+   background-color: aqua;
+   border: 3px solid black;
+ }
+ .latasted-blogs-IMG button {
+padding: 6px 10px;
+background-color: blue;
+margin-top: 30px;
+color: whitesmoke;
+ }
+
+        /* ---------------GET IN TOUCH----------------- */
+
+ .get-in-touch{
+width: 100%;
+height: 30vh;
+text-align: center;
+padding-top:130px;
+font-size: 20px;
+background-color: rgb(91, 157, 166);
+color: whitesmoke;
+ }
+ .get-in-touch p{
+   padding-top: 7px;
+   font-size: 17px;
+ }
+      /* <!-- ----------------map=-------------------- --> */
+.map{
+   background-image: url(./MAP.PNG);
+   padding-top: 40px;
+   height: 80vh;
+}
+
+.map-1{
+   width: 370px;
+   height: 70vh;
+   background-color: rgb(217, 217, 217);
+   border: 2px solid black;
+   padding-top: 20px;
+   padding-left: 15px;
+   margin-left: 1200px;
+}
+.map-1 p{
+   padding-top: 10px;
+
+}
+.map-1 input{
+   padding: 8px 14px;
+   width: 77%;
+   border-radius: 6px;
+}
+.map-1 button{
+   background-color: blue;
+   /* margin-top: 10px; */
+   padding: 8px 14px;
+}
+
+
+/* <!-- -------------------------------- THE----------------------------------------- -->
+ <!-- ---------------------------------END---------------------------------- -->
+            <!-- ----------------- @ZEESHANABBAS----------- --> */
+
+       
